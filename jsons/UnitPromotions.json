@@ -12,12 +12,6 @@
      "uniques": ["Can see over obstacles"],
      "unitTypes": ["Archery","Ranged Gunpowder","Siege"]
   },
-//Ships can see over obstacles once you have modern tech (not in for now)
-  {
-     "name": "Radar",
-     "uniques": ["Can see over obstacles","Only available <after discovering [Radar]>"],
-     "unitTypes": ["Ranged Water","Melee Water","Aircraft Carrier"]
-  },
 //Extra stuff for Scouts
   {
 // The Sapper unit: use in conjunction with your armies, they undermine defenses, poison wells and breach walls, etc.
@@ -63,32 +57,6 @@
      "prerequisites": ["Volley","Siege II","Bombardment II"],
      "uniques": ["Destroys tile improvements when attacking"],
      "unitTypes": ["Siege","Bomber","Ranged Water"]
-  },
-//Gunpowder units get extra attack
-  {
-     "name": "Speed Loaders",
-     "prerequisites": ["Accuracy II","Barrage II","Shock II","Drill II"],
-     "uniques": ["[+1] additional attacks per turn"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder"]
-  },
-//air mobility for land units
-  {
-     "name": "Air Mobile I",
-     "prerequisites": ["Accuracy III","Barrage III","Shock III","Drill III","Scouting III"],
-     "uniques": ["May Paradrop up to [+2] tiles from inside friendly territory","Only available <after discovering [Flight]>"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout"]
-  },
-  {
-     "name": "Air Mobile II",
-     "prerequisites": ["Air Mobile I"],
-     "uniques": ["May Paradrop up to [+2] tiles from inside friendly territory","Only available <after discovering [Flight]>"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout"]
-  },
-  {
-     "name": "Air Mobile III",
-     "prerequisites": ["Air Mobile II"],
-     "uniques": ["May Paradrop up to [+3] tiles from inside friendly territory","Only available <after discovering [Flight]>"],
-     "unitTypes": ["Ranged Gunpowder","Gunpowder","Armored","Siege","Sword","Mounted","Archery","Scout"]
   },
 //Ranged units can see and shoot while embarked 
   {
